@@ -1,0 +1,7 @@
+images
+.vscode
+*.pyc
+__pycache__
+framedatabase.egg-info
+linear_log
+
