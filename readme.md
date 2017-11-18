@@ -42,9 +42,10 @@ The images are named according to the following format:
 ## Format of `metadata.txt`
 The file named `metadata.txt` in each subfolder describes the logos. For each logo, there is one line in the file.
 ```
-<logo category>,<xMin>,<xMax>,<yMin>,<yMax>
+<logo category>,<xPox>,<yPos>,<xSize>,<ySize>
 ```
-The `logo category` is a string naming the logo. The position and the size are measured in pixels. `xMin`, `xMax`, `yMin` and `yMax` describe the bounding box for a logo.
+The `logo category` is a string naming the logo. The position and the size are measured in pixels.
+`xPox`, `yPos`, `xSize` and `ySize` describe the bounding box for a logo.
 
 # Python library
 A python library is provided to read the dataset. Feel free to use any other programming language to work with our data.
